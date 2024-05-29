@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>As a highly motivated individual with a passion for JavaScript, TypeScript, and React, I am eager to contribute my skills and enthusiasm to a dynamic team as a Junior Software Developer. With a solid foundation in these technologies and a commitment to continuous learning, I am ready to tackle new challenges and make meaningful contributions to projects. My proactive approach to problem-solving, coupled with strong communication and collaboration skills, enables me to thrive in fast-paced environments and deliver high-quality solutions. I am excited about the opportunity to grow professionally and contribute to innovative software development initiatives.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <!-- Project 1: Crypto-Flux -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="cryptoappimage.PNG" alt="Crypto-Flux">
+                    <div id="myModal1" class="modal">
+                        <span class="close" onclick="closeModal('myModal1')">&times;</span>
+                        <img src="cryptoappimage.PNG" alt="Crypto-Flux" id="img1">
+                    </div>
+                </div>
+                <h3>Crypto-Flux</h3>
+                <p>Token Info: Get the latest on crypto trends, trading volumes, and prices.
+                    Trending Picks: Discover what's hot in the market right now.
+                    Personal Portfolio: Keep track of your favorite cryptos easily</p>
+                <a href="https://github.com/braidijs1/cryptoFlux" target="_blank">View Project</a>
+            </div>
+            <!-- Project 2: Weather App -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="weaherappimage.PNG" alt="Weather App">
+                </div>
+                <h3>Weather App</h3>
+                <p>Local Weather Updates: Get real-time weather info for any place you want.
+                    Umbrella Alert: Wondering if you'll need an umbrella? We've got you covered with personalized recommendations.
+                    Easy Search: Look up weather forecasts worldwide with a few clicks</p>
+                <a href="https://github.com/braidijs1/weatherApp" target="_blank">View Project</a>
+            </div>
+            <!-- Project 3: PokeDex -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="pokemonappimage.PNG" alt="PokeDex">
+                </div>
+                <h3>PokeDex</h3>
+                <p>Pokémon Stat Checker: Simply search for any Pokémon, and we'll fetch and display its stats for you. From attack power to speed, get all the details you need in one convenient place.</p>
+                <a href="https://github.com/braidijs1/pokeDex" target="_blank">View Project</a>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me through the following platforms:</p>
+        <ul>
+            <li>Email: <a href="mailto:braidijs.sillers@gmail.com">braidijs.sillers@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/braidijs1" target="_blank">https://github.com/braidijs1</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/braidijs-sillers-162bb8164/?originalSubdomain=uk" target="_blank">https://www.linkedin.com/in/braidijs-sillers-162bb8164/?originalSubdomain=uk</a></li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Braidijs Sillers. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
